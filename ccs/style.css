@@ -1,0 +1,105 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgba(255, 186, 231, 0.795);
+    
+}
+#navbarNav{
+    justify-content: end;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-right: 20px;
+  
+}
+
+
+.video-container {
+    position: relative;
+    height: 100%;
+    /* Ajusta la altura según necesites */
+    overflow: hidden;
+}
+
+#video-background {
+    width: 100%;
+    height: 1250px;
+    background-position: center;
+    object-fit: cover;
+    opacity: 0.7;
+    /* Cubre el contenedor sin perder las proporciones */
+    z-index: -1;
+    /* Coloca el video detrás del contenido */
+}
+
+.separador {
+    background: radial-gradient(white, rgba(255, 186, 231, 0.795));
+}
+
+.sobre-nosotros {
+    font-family: Montserrat;
+    background-color: rgba(255, 186, 231, 0.795);
+    margin-top: 15px;
+    font-size:25px;
+}
+.carousel-item{
+    margin-top: 15px;
+    height: 800px;
+    justify-content: center;
+    
+}
+
+ .footer{
+    font-family: Montserrat;
+    background-color: rgba(255, 186, 231, 0.795);
+    margin-top: 20px;
+    font-size:15px;
+    text-align: center;
+ }
+  /* Lenceria */
+  .menu{
+    height: 120px;
+}
+
+/* contacto */
+.banner-contacto{
+    margin-top: 100px;
+    background-image:url(../medios/Que\ tenes\ que\ saber\ \(1\).jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    text-shadow: 5px 1px 6px rgba(0,0,0,0.57)
+   
+
+    
+}
+.lista-contacto{
+    font-family: Montserrat;
+    text-shadow: 5px 1px 6px rgba(0,0,0,0);
+    font-size: 25px;
+    margin: 30px;
+    justify-content: center;
+}
+
+.imagen-lenceria{
+    z-index: -0;
+    margin-top: 100px;
+    text-align: center;
+   
+}
+
+.textos{
+
+    text-align: center;
+    margin-top: 5px;
+
+}
+ 
